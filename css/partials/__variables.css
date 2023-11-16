@@ -1,0 +1,10 @@
+:root{
+    --pcolor: #e35f4b;
+    --pcolor2: #3e5b61;
+    --title-color: #141313;
+    --txt: #777777;
+    --border-color: #201f1f17;
+    --gradient: linear-gradient(90deg, #e35f4b 0%,#1d3958 100%);
+    --shadow: 0 10px 30px rgba(118,85,225,0.3);
+    --box-shad: 0 10px 30px rgba(57,56,61,0.205);
+}

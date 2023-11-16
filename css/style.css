@@ -1,0 +1,28 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+
+@import url('./partials/__variables.css');
+body{
+    font-family: 'Roboto', sans-serif!important;
+}
+
+.header_area .main-menu .navbar .navbar-brand{
+    padding: 0 10rem 0 2rem;
+}
+
+.header_area .main-menu .navbar{
+    padding: 1rem 15rem;
+}
+
+.header_area .main-menu .nav-item .nav-link{
+    font-weight: 500;
+    color: var(--title-color);
+    padding: 1.7rem;
+    text-transform: uppercase;
+}
+.header_area .main-menu .navbar-nav .active a{
+    background: var(--gradient);
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    font-weight: 800;
+}
