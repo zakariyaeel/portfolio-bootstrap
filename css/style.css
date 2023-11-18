@@ -74,7 +74,7 @@ body{
 .site-main .site-banner .button{
     padding: .8rem 2.2rem;
     position: relative;
-    border: transparent 3px solid;
+    border: 3px  transparent ;
     border-radius: 4px;
 }
 .site-main .site-banner .button.primary-button{
@@ -89,7 +89,9 @@ body{
     background: whitesmoke;
     background-clip: padding-box;
 }
-.site-main .site-banner .button.primary-button::after{
+.site-main .site-banner .button.primary-button::after,
+.site-main .site-banner .button.secondary-button::after
+{
     position: absolute;
     top: -2px;bottom: -2px;
     right: -2px;left: -2px;
@@ -97,5 +99,15 @@ body{
     content: '';
     z-index: -1;
     border-radius: 4px;
+}
+.site-main .site-banner .button.secondary-button{
+    transition: background .6s ease;
+    background: #fff;
+    background-clip: border-box;
+}
+.site-main .site-banner .button.secondary-button:hover{
+    background: var(--gradient);
+    box-shadow: var(--box-shad);
+    color: whitesmoke;
 }
 /* end of banner area */
