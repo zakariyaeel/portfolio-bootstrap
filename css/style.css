@@ -19,10 +19,83 @@ body{
     padding: 1.7rem;
     text-transform: uppercase;
 }
-.header_area .main-menu .navbar-nav .active a{
+.header_area .main-menu .navbar-nav .active {
     background: var(--gradient);
     background-clip: text;
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
     font-weight: 800;
 }
+.header_area .main-menu .navbar-nav a:hover {
+    background: var(--gradient);
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    font-weight: 800;
+}
+
+/* end of heading */
+
+/* banner area */
+.site-main .site-banner{
+    padding: 0;
+}
+.site-main .site-banner .container{
+    padding: 1rem 5rem;
+}
+.site-main .site-banner .site-titel{
+    padding-left: 10rem;
+}
+.site-main .site-banner .site-titel h3{
+    padding: 25% 0% 0;
+    font-weight: 500;
+} 
+
+.site-main .site-banner .site-titel h3::after{
+    content: "";
+    background-color: #000;
+    height: 2px;
+    width: 15vw;
+    display: inline-block;
+    transform: translateY(-10px);
+    margin-left: 5%;
+}
+.site-main .site-banner .site-titel h1{
+    font-size: 5rem;
+
+}
+.site-main .site-banner .site-titel h4{
+    font-size: 1.5rem;
+}
+.site-main .site-banner .banner-image > img{
+    /* padding: 2rem 0; */
+    width: 30rem;
+}
+.site-main .site-banner .button{
+    padding: .8rem 2.2rem;
+    position: relative;
+    border: transparent 3px solid;
+    border-radius: 4px;
+}
+.site-main .site-banner .button.primary-button{
+    background: var(--gradient);
+    background-clip: padding-box;
+    color: whitesmoke;
+    box-shadow: var(--box-shad);
+    transition: background .6s ease;
+}
+.site-main .site-banner .button.primary-button:hover{
+    color: #000;
+    background: whitesmoke;
+    background-clip: padding-box;
+}
+.site-main .site-banner .button.primary-button::after{
+    position: absolute;
+    top: -2px;bottom: -2px;
+    right: -2px;left: -2px;
+    background: var(--gradient);
+    content: '';
+    z-index: -1;
+    border-radius: 4px;
+}
+/* end of banner area */
