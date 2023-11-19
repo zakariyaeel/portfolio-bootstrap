@@ -1,6 +1,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
 
 @import url('./partials/__variables.css');
+@import url('./partials/_glob.css');
 body{
     font-family: 'Roboto', sans-serif!important;
 }
@@ -71,43 +72,23 @@ body{
     /* padding: 2rem 0; */
     width: 30rem;
 }
-.site-main .site-banner .button{
-    padding: .8rem 2.2rem;
-    position: relative;
-    border: 3px  transparent ;
-    border-radius: 4px;
-}
-.site-main .site-banner .button.primary-button{
-    background: var(--gradient);
-    background-clip: padding-box;
-    color: whitesmoke;
-    box-shadow: var(--box-shad);
-    transition: background .6s ease;
-}
-.site-main .site-banner .button.primary-button:hover{
-    color: #000;
-    background: whitesmoke;
-    background-clip: padding-box;
-}
-.site-main .site-banner .button.primary-button::after,
-.site-main .site-banner .button.secondary-button::after
-{
-    position: absolute;
-    top: -2px;bottom: -2px;
-    right: -2px;left: -2px;
-    background: var(--gradient);
-    content: '';
-    z-index: -1;
-    border-radius: 4px;
-}
-.site-main .site-banner .button.secondary-button{
-    transition: background .6s ease;
-    background: #fff;
-    background-clip: border-box;
-}
-.site-main .site-banner .button.secondary-button:hover{
-    background: var(--gradient);
-    box-shadow: var(--box-shad);
-    color: whitesmoke;
-}
+
 /* end of banner area */
+
+/* starting the about area */
+.site-main .about-area{
+    padding: 8rem 5rem;
+}
+.site-main .about-area .about-image{
+    padding: 0 8rem;
+}
+.site-main .about-area .about-titel{
+    padding: 0 5rem;
+}
+.site-main .about-area .about-titel h2 > span{
+    display: block;
+    font-weight: bold;
+    letter-spacing: 21px;
+}
+
+/* end of about */
