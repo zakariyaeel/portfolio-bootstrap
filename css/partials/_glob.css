@@ -42,3 +42,6 @@
 p.para{
     color: var(--txt);
 }
+.txt-titel{
+    font-weight: 700;
+}

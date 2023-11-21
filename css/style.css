@@ -170,3 +170,25 @@ body{
     font-weight: 700;
 }
 /* brand area end */
+
+/* services area start*/
+.site-main .service-area{
+    padding: 7rem 2rem;
+}
+.site-main .service-area .services-titel{
+    padding: 0 14rem;
+}
+.site-main .service-area .services-titel h1{
+    font-size: 35px;
+}
+.site-main > .service-area .services{
+    background-color: rgba(248, 252, 253, .9);
+    padding: 2rem 0;
+    width: 16rem;
+    margin: 5rem 5rem;
+    transition: box-shadow .7s ease;
+}
+.site-main > .service-area .services:hover{
+    box-shadow: var(--box-shad);
+}
+/* services area end*/
