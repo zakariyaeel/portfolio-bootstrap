@@ -45,3 +45,12 @@ p.para{
 .txt-titel{
     font-weight: 700;
 }
+
+button:focus,
+button:active,
+button:hover,
+.btn:active,
+.btn.active{
+    outline: none !important;
+    box-shadow: none !important;
+}
