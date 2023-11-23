@@ -210,4 +210,22 @@ body{
     font-weight: 700;
     font-size: 25px;
 }
+.project-area .button-group .active{
+    background: var(--gradient)!important;
+    background-clip: text!important;
+    -webkit-background-clip: text!important;
+    -webkit-text-fill-color: transparent!important;
+    font-weight: 800;
+}
+.element-item{
+    animation: zoom 1s ease ;
+}
+@keyframes zoom{
+    from{
+        transform: scale(0.1);
+    }
+    to{
+        transform: scale(1);
+    }
+}
 /* project area end*/
