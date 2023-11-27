@@ -229,3 +229,46 @@ body{
     }
 }
 /* project area end*/
+/* about area start */
+.site-main .about-area .client-row{
+    width: 35rem;
+    border-radius: 10px;
+    padding: 12px;
+    background-color: #f8f9fa;
+    box-shadow: var(--box-shad);
+    margin: 0 12px;
+}
+
+.site-main .about-area .client-icon{
+    font-size: 25px;
+    width: 16%;
+        /* display: flex;
+        align-items: center; */
+}
+.site-main .about-area .client-icon i{
+    border: #000 2px solid;
+    border-radius: 4px;
+    padding: 20px;
+}
+.site-main .about-area .about-client{
+    width: calc(100% - 16%);
+}
+.site-main .about-area .about-client h4{
+    margin: 0;
+}
+.site-main .about-area .radio{
+    width: 10px;
+}
+.site-main .about-area .radio input[type="radio"]{
+    position: relative;
+    border: 2px solid #000;
+    appearance: none;
+    width: 10px;
+    height: 10px;
+    border-radius: 50%;
+}
+
+.site-main .about-area .radio input[type="radio"]:checked{
+    background-color: #000;
+}
+/* about area end */
