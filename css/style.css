@@ -272,3 +272,35 @@ body{
     background-color: #000;
 }
 /* about area end */
+
+/* subscribe area */
+.site-main .subscribe-us-area .subscribe{
+    background: url('../imgs/subs.jpg') no-repeat;
+    background-size: cover;
+    padding: 10rem 0;
+    margin: 3rem auto;
+}
+.site-main .subscribe-us-area .subscribe-titel h4{
+    color: whitesmoke;
+    font-weight: 700;
+    font-size: 30px;
+}
+.site-main .subscribe-us-area form .input-textbox input{
+    width: 400px;
+    padding: 1.1rem 1rem;
+    border: 1px solid whitesmoke;
+    background: transparent;
+    color: white;
+    font-weight: 500;
+    font-size: 20px;
+    outline: none;
+}
+.site-main .subscribe-us-area form .input-textbox input::placeholder{
+    color: whitesmoke;
+}
+.site-main .subscribe-us-area form .btn-submit button{
+    background-color: whitesmoke;
+    color: #000;
+    padding: 1.2rem 2rem;
+}
+/* subscribe area end */
