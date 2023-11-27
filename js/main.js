@@ -56,4 +56,20 @@ $('document').ready(function(){
         }
     }
 
+    // sticky navbar
+    let header_off_top = $('.header_area').height() + 50;
+    function navbar_fixed(){
+        if($('.header_area').length){
+            $(window).scroll(function(){
+                let scroll = $(window).scrollTop();
+                if(scroll >= header_off_top){
+                    $('.header_area .main-menu').addClass('fixed-nav');
+                    console.log(header_off_top);
+                }else{
+                    $('.header_area .main-menu').removeClass('fixed-nav');
+                }
+            })
+        }
+    }
+    navbar_fixed();
 });

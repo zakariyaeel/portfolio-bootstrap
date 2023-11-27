@@ -275,7 +275,7 @@ body{
 
 /* subscribe area */
 .site-main .subscribe-us-area .subscribe{
-    background: url('../imgs/subs.jpg') no-repeat;
+    background: url('../imgs/subs2.jpg') no-repeat;
     background-size: cover;
     padding: 10rem 0;
     margin: 3rem auto;
@@ -304,3 +304,28 @@ body{
     padding: 1.2rem 2rem;
 }
 /* subscribe area end */
+
+/* footer area start */
+footer.footer-area{
+    padding: 5rem 0;
+    background: url("../imgs/wave.png");
+    /* background-size: ; */
+
+}
+footer .site-logo img{
+    width: 50px;
+}
+footer.footer-area .social h5{
+    font-size: 24px;
+    font-weight: 900!important;
+}
+footer.footer-area .social a>i{
+    font-size: 22px;
+    padding: 2rem;
+    color: var(--txt);
+
+}
+footer.footer-area .social a:hover>i{
+    color: var(--pcolor);
+}
+/* footer area end */
